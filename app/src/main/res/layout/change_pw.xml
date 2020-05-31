@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기존 비밀번호"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/originalPw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="기존 비밀번호를 입력하세요."
+        android:inputType="numberPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새 비밀번호"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/etChange1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="변경할 비밀번호를 입력하세요."
+        android:inputType="numberPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 재확인"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/etChange2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="변경할 비밀번호를 다시 입력하세요."
+        android:inputType="numberPassword" />
+
+</LinearLayout>

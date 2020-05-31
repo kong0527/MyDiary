@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MA02_20160947</string>
+    <string name="api_url">https://openapi.naver.com/v1/search/local.xml?display=10&amp;start=1&amp;query=</string>
+    <string name="client_id">_UoFVdXOIhk6KAJlmqhH</string>
+    <string name="client_secret">FzN32fuiwa</string>
+    <string name="google_api_key">AIzaSyCBwCz_PXNy64-O4Bjj-jFVFz2lX5FLA3c</string>
+    <string name="permission_ok_toast">Permission was granted! Restart now!</string>
+    <string name="permission_failed_toast">Permission denied!</string>
+    <string name="init_latitude">37.604186</string>
+    <string name="init_longitude">127.042456</string>
+</resources>

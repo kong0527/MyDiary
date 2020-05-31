@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/add"
+            android:title="일기 추가"
+            android:onClick="onMenuItemClick" />
+
+        <item
+            android:id="@+id/search"
+            android:title="일기 검색"
+            android:onClick="onMenuItemClick" />
+        <item
+            android:id="@+id/searchGPS"
+            android:title="주변 검색"
+            android:onClick="onMenuItemClick" />
+    </group>
+</menu>
